@@ -9,7 +9,7 @@ namespace Open_Lab_02._05
            bool dudo = false;
             if(number % 5 == 0)
                 dudo = true;
-            return dudo;
+            return number;
         }
     }
 }
