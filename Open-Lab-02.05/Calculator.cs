@@ -6,7 +6,10 @@ namespace Open_Lab_02._05
     {
         public bool DivisibleByFive(int number)
         {
-            throw new NotImplementedException();
+           bool dudo = false;
+            if(number % 5 == 0)
+                dudo = true;
+            return dudo;
         }
     }
 }
